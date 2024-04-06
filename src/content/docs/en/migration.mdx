@@ -46,7 +46,7 @@ Quick.db now uses async and await for all methods.
 
 ```js
 // Quick.db before
-db.add("mykey", 10);
+await db.add("mykey", 10);
 
 // Now
 await db.add("mykey", 10);
